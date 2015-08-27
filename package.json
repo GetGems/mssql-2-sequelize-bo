@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "async": "^1.2.x",
-    "tedious": "^1.11.x"
+    "tedious": "http://cdn.getgems.org/infrastructure/npm/tedious-1.11.2.tgz"
   }
 }

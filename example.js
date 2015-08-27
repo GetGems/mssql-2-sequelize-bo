@@ -3,13 +3,16 @@
 var db2sequelize = require('./lib');
 
 var config = {
-	server: 'xxxx',
-	userName: 'xxxx',
-	password: 'xxxx',
-	database: 'xxxx',
+	server: '',
+	userName: '',
+	password: '',
+	options: {
+		database: '',
+		encrypt: true
+	}
 };
 
-var filepath = null;
+var filepath = './generated';
 
 db2sequelize(config, filepath, function (err) {
 	if (err) {
